@@ -1,4 +1,4 @@
-# balanced-match
+# Balanced match .
 
 Match balanced string pairs, like `{` and `}` or `<b>` and `</b>`.
 
