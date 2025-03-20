@@ -8,7 +8,7 @@ Match balanced string pairs, like `{` and `}` or `<b>` and `</b>`.
 Get the first non-nested matching pair of braces:
 
 ```js
-var balanced = require('balanced-match');
+var balanced = require('balanced_match');
 
 console.log(balanced('{', '}', 'pre{in{nested}}post'));
 console.log(balanced('{', '}', 'pre{first}between{second}post'));
@@ -46,5 +46,5 @@ If there's no match, `undefined` will be returned.
 With [npm](https://npmjs.org) do:
 
 ```bash
-npm install balanced-match
+npm install balanced_match
 ```
